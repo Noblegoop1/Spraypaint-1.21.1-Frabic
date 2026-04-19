@@ -2,6 +2,7 @@ package net.noblegoop.spraypaint;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.noblegoop.spraypaint.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +21,7 @@ public class Spraypaint implements ModInitializer {
 		// Proceed with mild caution.
 		// somehow this is my fault meow meow
 		LOGGER.info("SPRAY THE PAINT!aa sadsasa");
+
+		ModItems.registerModItems();
 	}
 }
