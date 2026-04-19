@@ -29,7 +29,11 @@ public class ModItems {
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS)
                 .register((itemGroup) -> itemGroup.accept(ModItems.SPRAY_BOTTLE));
+
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register((itemGroup) -> itemGroup.accept(ModItems.SPRAY_BOTTLE));
     }
+
+
 
 
 }
