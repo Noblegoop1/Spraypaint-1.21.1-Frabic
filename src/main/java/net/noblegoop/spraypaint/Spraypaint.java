@@ -19,6 +19,6 @@ public class Spraypaint implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("SPRAY THE PAINT!aa sadsa");
+		LOGGER.info("SPRAY THE PAINT!aa sadsasa");
 	}
 }
