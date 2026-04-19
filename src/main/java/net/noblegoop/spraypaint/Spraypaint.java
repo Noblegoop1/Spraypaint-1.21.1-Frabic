@@ -18,7 +18,7 @@ public class Spraypaint implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-		// somehow this is my fault
+		// somehow this is my fault meow meow
 		LOGGER.info("SPRAY THE PAINT!aa sadsasa");
 	}
 }
