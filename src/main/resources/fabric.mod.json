@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "spraypaint",
+	"version": "${version}",
+	"name": "spraypaint",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/spraypaint/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.noblegoop.spraypaint.Spraypaint"
+		],
+		"fabric-datagen": [
+			"net.noblegoop.spraypaint.SpraypaintDataGenerator"
+		],
+		"Client": [
+			"net.noblegoop.spraypaint.SpraypaintClient"
+		]
+	},
+	"mixins": [
+		"spraypaint.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
